@@ -3,7 +3,7 @@ import Card from '@/app/components/card';
 import { useInfiniteQuery } from "react-query";
 import { Button } from "@nextui-org/react";
 
-const fetchData = ({ pageParam = 1 }) => fetch(`https://starwar-api.onrender.com/planets?page=${pageParam}`).then(res => res.json())
+const fetchData = ({ pageParam = 1 }) => fetch(`https://starwar-api-dev-hncm.1.ie-1.fl0.io/planets?page=${pageParam}`).then(res => res.json())
 
 type Planet = {
 	id: number

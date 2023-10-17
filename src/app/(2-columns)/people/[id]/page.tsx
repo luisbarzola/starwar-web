@@ -67,7 +67,7 @@ type PersonFull = {
 }
 
 function fetchPerson(id: string): Promise <PersonFull> {
-  return fetch(`https://starwar-api.onrender.com/people/${id}/full`).then(res => res.json())
+  return fetch(`https://starwar-api-dev-hncm.1.ie-1.fl0.io/people/${id}/full`).then(res => res.json())
 }
 
 export default async function Person({params}: { params: { id: string } }) {
