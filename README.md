@@ -1,7 +1,9 @@
-## live on [https://starwar-web.onrender.com](https://starwar-web.onrender.com)
+# Starwar web
+
+## live on 
+[https://starwar-web.onrender.com](https://starwar-web.onrender.com)
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
